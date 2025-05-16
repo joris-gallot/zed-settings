@@ -1,0 +1,77 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "icon_theme": "Material Icon Theme",
+  "base_keymap": "VSCode",
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "buffer_font_weight": 400,
+  "buffer_font_family": "Monaspace Neon",
+  "tab_size": 2,
+  "use_autoclose": true,
+  "format_on_save": "on",
+  "tab_bar": {
+    "show": true,
+    "show_nav_history_buttons": false,
+    "show_tab_bar_buttons": false
+  },
+  "theme": {
+    "mode": "system",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "git": {
+    "git_gutter": "tracked_files",
+    "inline_blame": {
+      "enabled": true
+    },
+    "hunk_style": "staged_hollow"
+  },
+  "file_scan_inclusions": [".env*"],
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/.svn",
+    "**/.hg",
+    "**/.jj",
+    "**/CVS",
+    "**/.DS_Store",
+    "**/Thumbs.db",
+    "**/.classpath",
+    "**/.settings",
+    "**/node_modules",
+    "**/.cache"
+  ],
+  "formatter": {
+    "code_actions": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "project_panel": {
+    "dock": "right"
+  },
+  "git_panel": {
+    "dock": "right"
+  },
+  "terminal": {
+    "dock": "right"
+  },
+  "diagnostics": {
+    "inline": {
+      "enabled": true
+    }
+  },
+  "agent": {
+    "dock": "left",
+    "version": "2"
+  }
+}
