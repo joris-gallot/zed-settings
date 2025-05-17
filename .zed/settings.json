@@ -7,7 +7,6 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "icon_theme": "Material Icon Theme",
   "base_keymap": "VSCode",
   "ui_font_size": 16,
   "buffer_font_size": 16,
@@ -21,6 +20,7 @@
     "show_nav_history_buttons": false,
     "show_tab_bar_buttons": false
   },
+  "icon_theme": "Material Icon Theme",
   "theme": {
     "mode": "system",
     "light": "Light",
@@ -73,5 +73,17 @@
   "agent": {
     "dock": "left",
     "version": "2"
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "chat_panel": {
+    "button": "never"
+  },
+  "notification_panel": {
+    "button": false
+  },
+  "outline_panel":{
+    "button": false
   }
 }
