@@ -37,7 +37,7 @@
       "cmd-shift-u": "git::Pull",
       "cmd-shift-y": "git::Push",
       "cmd-.": "git::StageAll",
-      "cmd-shift-.": "git::UnstageAll"
+      "cmd->": "git::UnstageAll"
     }
   }
 ]
