@@ -24,5 +24,13 @@
       "cmd-shift-u": "git::Pull",
       "cmd-shift-y": "git::Push"
     }
+  },
+  {
+    "context": "GitPanel",
+    "use_key_equivalents": true,
+    "bindings": {
+      "cmd-shift-u": "git::Pull",
+      "cmd-shift-y": "git::Push"
+    }
   }
 ]
