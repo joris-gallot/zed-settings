@@ -8,8 +8,10 @@ My [Zed](https://zed.dev/) settings
 - Git pull: `cmd-u`
 - Git push: `cmd-y`
 - Git force push: `cmd-shift-y`
-- Git stage all: `cmd-.`
-- Git unstage all: `cmd->` (`cmd-shift-,`)
+- Git stage all (git panel): `cmd-.`
+- Git unstage all (git panel): `cmd->` (`cmd-shift-,`)
+- Git commit (git panel): `cmd-enter`
+- Git amend (git panel): `cmd-shift-enter`
 - Toggle right panel: `cmd-i`
 - Toggle left panel: `cmd-shift-i`
 - Git panel focus: `cmd-shift-k`
