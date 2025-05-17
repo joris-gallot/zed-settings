@@ -23,6 +23,8 @@
       "cmd-shift-k": "git_panel::ToggleFocus",
       "cmd-shift-u": "git::Pull",
       "cmd-shift-y": "git::Push",
+      "cmd-.": "git::StageAll",
+      "cmd->": "git::UnstageAll",
       "cmd-,": "markdown::OpenPreview"
     }
   },
@@ -31,7 +33,9 @@
     "use_key_equivalents": true,
     "bindings": {
       "cmd-shift-u": "git::Pull",
-      "cmd-shift-y": "git::Push"
+      "cmd-shift-y": "git::Push",
+      "cmd-.": "git::StageAll",
+      "cmd-shift-.": "git::UnstageAll"
     }
   }
 ]
