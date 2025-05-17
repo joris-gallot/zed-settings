@@ -29,7 +29,9 @@
       "cmd-.": "git::StageAll",
       "cmd->": "git::UnstageAll",
       "cmd-,": "markdown::OpenPreview",
-      "cmd-l": "agent::ToggleFocus"
+      "cmd-l": "agent::ToggleFocus",
+      "cmd-shift-u": "editor::Rename",
+      "cmd-k": "editor::GoToDefinition"
     }
   },
   {

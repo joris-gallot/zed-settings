@@ -3,6 +3,8 @@ My [Zed](https://zed.dev/) settings
 - File finder: `cmd-p`
 - Command palette: `cmd-shift-p`
 - Global search (and replace): `cmd-shift-h`
+- Rename symbol: `cmd-shift-u`
+- Go to definition: `cmd-k`
 - Git pull: `cmd-u`
 - Git push: `cmd-y`
 - Git force push: `cmd-shift-y`
