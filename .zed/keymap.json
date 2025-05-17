@@ -22,8 +22,9 @@
       "cmd-shift-i": "workspace::ToggleRightDock",
       "cmd-i": "workspace::ToggleLeftDock",
       "cmd-shift-k": "git_panel::ToggleFocus",
-      "cmd-shift-u": "git::Pull",
-      "cmd-shift-y": "git::Push",
+      "cmd-u": "git::Pull",
+      "cmd-y": "git::Push",
+      "cmd-shift-y": "git::ForcePush",
       "cmd-.": "git::StageAll",
       "cmd->": "git::UnstageAll",
       "cmd-,": "markdown::OpenPreview",
@@ -34,8 +35,9 @@
     "context": "GitPanel",
     "use_key_equivalents": true,
     "bindings": {
-      "cmd-shift-u": "git::Pull",
-      "cmd-shift-y": "git::Push",
+      "cmd-u": "git::Pull",
+      "cmd-y": "git::Push",
+      "cmd-shift-y": "git::ForcePush",
       "cmd-.": "git::StageAll",
       "cmd->": "git::UnstageAll"
     }
