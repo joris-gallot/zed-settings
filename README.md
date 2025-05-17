@@ -13,4 +13,5 @@ My [Zed](https://zed.dev/) settings
 - Git panel focus: `cmd-shift-k`
 - File explorer focus: `cmd-shift-j`
 - Markdown preview: `cmd-,`
+- Tasks: `cmd-shift-r`
 - Agent panel: `cmd-l`
