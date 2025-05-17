@@ -17,3 +17,4 @@ My [Zed](https://zed.dev/) settings
 - Markdown preview: `cmd-,`
 - Tasks: `cmd-shift-r`
 - Agent panel: `cmd-l`
+- Inline assist: `cmd-enter`
