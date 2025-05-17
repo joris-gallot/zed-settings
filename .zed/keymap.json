@@ -21,7 +21,8 @@
     "bindings": {
       "cmd-shift-i": "workspace::ToggleRightDock",
       "cmd-shift-k": "git_panel::ToggleFocus",
-      "cmd-shift-u": "git::Pull"
+      "cmd-shift-u": "git::Pull",
+      "cmd-shift-y": "git::Push"
     }
   }
 ]
