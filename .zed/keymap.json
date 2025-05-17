@@ -10,15 +10,18 @@
     "context": "Workspace",
     "use_key_equivalents": true,
     "bindings": {
-      "cmd-b": "workspace::ToggleRightDock",
-      "cmd-shift-k": "git_panel::ToggleFocus"
+      "cmd-shift-i": "workspace::ToggleRightDock",
+      "cmd-shift-k": "git_panel::ToggleFocus",
+      "cmd-shift-j": "project_panel::ToggleFocus"
     }
   },
   {
     "context": "Editor",
     "use_key_equivalents": true,
     "bindings": {
-      "cmd-shift-k": "git_panel::ToggleFocus"
+      "cmd-shift-i": "workspace::ToggleRightDock",
+      "cmd-shift-k": "git_panel::ToggleFocus",
+      "cmd-shift-u": "git::Pull"
     }
   }
 ]
