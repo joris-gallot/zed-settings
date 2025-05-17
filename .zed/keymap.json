@@ -20,12 +20,14 @@
     "use_key_equivalents": true,
     "bindings": {
       "cmd-shift-i": "workspace::ToggleRightDock",
+      "cmd-i": "workspace::ToggleLeftDock",
       "cmd-shift-k": "git_panel::ToggleFocus",
       "cmd-shift-u": "git::Pull",
       "cmd-shift-y": "git::Push",
       "cmd-.": "git::StageAll",
       "cmd->": "git::UnstageAll",
-      "cmd-,": "markdown::OpenPreview"
+      "cmd-,": "markdown::OpenPreview",
+      "cmd-l": "agent::ToggleFocus"
     }
   },
   {
