@@ -7,24 +7,18 @@
 // from the command palette.
 [
   {
-    "context": "Workspace",
-    "use_key_equivalents": true,
     "bindings": {
+      "cmd-h": "terminal_panel::ToggleFocus",
       "cmd-i": "workspace::ToggleRightDock",
       "cmd-shift-i": "workspace::ToggleLeftDock",
       "cmd-shift-k": "git_panel::ToggleFocus",
-      "cmd-shift-j": "project_panel::ToggleFocus",
-      "cmd-u": "git::Pull",
-      "cmd-y": "git::Push"
+      "cmd-shift-j": "project_panel::ToggleFocus"
     }
   },
   {
     "context": "Editor",
     "use_key_equivalents": true,
     "bindings": {
-      "cmd-i": "workspace::ToggleRightDock",
-      "cmd-shift-i": "workspace::ToggleLeftDock",
-      "cmd-shift-k": "git_panel::ToggleFocus",
       "cmd-u": "git::Pull",
       "cmd-y": "git::Push",
       "cmd-shift-y": "git::ForcePush",
