@@ -1,4 +1,4 @@
-My [Zed](https://zed.dev/) settings
+My [Zed](https://zed.dev/) settings (`~/.config/zed`)
 
 - File finder: `cmd-p`
 - Command palette: `cmd-shift-p`
