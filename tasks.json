@@ -1,0 +1,14 @@
+[
+  {
+    "label": "edit zed settings",
+    "command": "zed ~/.config/zed"
+  },
+  {
+    "label": "edit .zshrc",
+    "command": "zed ~/.zshrc"
+  },
+  {
+    "label": "source .zshrc",
+    "command": "source ~/.zshrc"
+  }
+]
