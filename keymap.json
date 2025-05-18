@@ -13,7 +13,9 @@
       "cmd-i": "workspace::ToggleRightDock",
       "cmd-shift-i": "workspace::ToggleLeftDock",
       "cmd-shift-k": "git_panel::ToggleFocus",
-      "cmd-shift-j": "project_panel::ToggleFocus"
+      "cmd-shift-j": "project_panel::ToggleFocus",
+      "cmd-u": "git::Pull",
+      "cmd-y": "git::Push"
     }
   },
   {
