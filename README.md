@@ -15,6 +15,7 @@ My [Zed](https://zed.dev/) settings (`~/.config/zed`)
 - Toggle right panel: `cmd-i`
 - Toggle left panel: `cmd-shift-i`
 - Git panel focus: `cmd-shift-k`
+- Terminal focus: `cmd-h`
 - File explorer focus: `cmd-shift-j`
 - Markdown preview: `cmd-,`
 - Tasks: `cmd-shift-r`
