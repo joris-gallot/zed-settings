@@ -4,15 +4,15 @@
     "command": "zed ~/.config/zed"
   },
   {
+    "label": "edit ghostty settings",
+    "command": "zed ~/.config/ghostty"
+  },
+  {
     "label": "edit .zshrc",
     "command": "zed ~/.zshrc"
   },
   {
     "label": "source .zshrc",
     "command": "source ~/.zshrc"
-  },
-  {
-    "label": "edit ghostty config",
-    "command": "zed ~/.config/ghostty/config"
   }
 ]
