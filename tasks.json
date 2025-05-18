@@ -10,5 +10,9 @@
   {
     "label": "source .zshrc",
     "command": "source ~/.zshrc"
+  },
+  {
+    "label": "edit ghostty config",
+    "command": "zed ~/.config/ghostty/config"
   }
 ]
