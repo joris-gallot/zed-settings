@@ -59,6 +59,20 @@
       "source.fixAll.eslint": true
     }
   },
+  "languages": {
+    "Rust": {
+      "formatter": "language_server"
+    }
+  },
+  "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "check": {
+          "command": "clippy"
+        }
+      }
+    }
+  },
   "project_panel": {
     "dock": "right"
   },
@@ -86,7 +100,7 @@
   "notification_panel": {
     "button": false
   },
-  "outline_panel":{
+  "outline_panel": {
     "button": false
   }
 }
