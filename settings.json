@@ -38,7 +38,7 @@
     "hunk_style": "staged_hollow"
   },
   "features": {
-    "edit_prediction_provider": "zed"
+    "edit_prediction_provider": "copilot"
   },
   "file_scan_inclusions": [".env*"],
   "file_scan_exclusions": [
@@ -88,6 +88,14 @@
     }
   },
   "agent": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-3.7-sonnet"
+    },
+    "inline_assistant_model": {
+      "provider": "copilot_chat",
+      "model": "claude-3.7-sonnet"
+    },
     "dock": "left",
     "version": "2"
   },
