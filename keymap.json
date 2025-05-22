@@ -47,5 +47,12 @@
       "cmd-.": "git::StageAll",
       "cmd->": "git::UnstageAll"
     }
+  },
+  {
+    "context": "Workspace && !Terminal",
+    "use_key_equivalents": true,
+    "bindings": {
+      "cmd-j": "task::Spawn"
+    }
   }
 ]
