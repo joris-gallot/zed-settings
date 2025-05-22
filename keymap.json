@@ -22,8 +22,6 @@
       "cmd-u": "git::Pull",
       "cmd-y": "git::Push",
       "cmd-shift-y": "git::ForcePush",
-      "cmd-.": "git::StageAll",
-      "cmd->": "git::UnstageAll",
       "cmd-,": "markdown::OpenPreview",
       "cmd-l": "agent::ToggleFocus",
       "cmd-shift-u": "editor::Rename",
