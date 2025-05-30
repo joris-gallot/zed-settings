@@ -67,7 +67,12 @@
       "formatter": "language_server"
     },
     "Astro": {
-      "language_servers": ["eslint", "tailwindcss-language-server"]
+      "language_servers": [
+        "eslint",
+        "astro-language-server",
+        "vtsls",
+        "tailwindcss-language-server"
+      ]
     }
   },
   "lsp": {
