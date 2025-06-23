@@ -121,5 +121,8 @@
   },
   "outline_panel": {
     "button": false
+  },
+  "debugger": {
+    "dock": "right"
   }
 }
