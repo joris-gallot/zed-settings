@@ -71,14 +71,6 @@
   "languages": {
     "Rust": {
       "formatter": "language_server"
-    },
-    "Astro": {
-      "language_servers": [
-        "eslint",
-        "astro-language-server",
-        "vtsls",
-        "tailwindcss-language-server"
-      ]
     }
   },
   "lsp": {
@@ -113,8 +105,7 @@
       "provider": "copilot_chat",
       "model": "claude-sonnet-4"
     },
-    "dock": "left",
-    "version": "2"
+    "dock": "left"
   },
   "collaboration_panel": {
     "button": false
