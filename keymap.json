@@ -29,6 +29,12 @@
     }
   },
   {
+    "context": "Editor && showing_completions",
+    "bindings": {
+      "tab": "editor::AcceptEditPrediction"
+    }
+  },
+  {
     "context": "!ContextEditor > Editor && mode == full",
     "use_key_equivalents": true,
     "bindings": {
