@@ -14,6 +14,9 @@
   "buffer_font_family": "Monaspace Neon",
   "tab_size": 2,
   "use_autoclose": true,
+  "sticky_scroll": {
+    "enabled": true
+  },
   "format_on_save": "on",
   "tab_bar": {
     "show": true,
