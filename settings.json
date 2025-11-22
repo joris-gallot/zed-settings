@@ -67,6 +67,9 @@
   "code_actions_on_format": {
     "source.fixAll.eslint": true
   },
+  "file_types": {
+    "JSON": ["arb"]
+  },
   "languages": {
     "Rust": {
       "formatter": "language_server"
