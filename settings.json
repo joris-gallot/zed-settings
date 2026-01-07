@@ -17,6 +17,9 @@
   "sticky_scroll": {
     "enabled": true
   },
+  "gutter": {
+    "line_numbers": true
+  },
   "format_on_save": "on",
   "tab_bar": {
     "show": true,
